@@ -6,6 +6,11 @@
   />
 </template>
 
+<script lang="ts">
+import { Vue } from 'nuxt-property-decorator'
+export default class VuefyLogo extends Vue {}
+</script>
+
 <style>
 .VuetifyLogo {
   width: 180px;

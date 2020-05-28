@@ -87,5 +87,11 @@ export default {
      ** You can extend webpack config here
      */
     //extend(config, ctx) {},
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-decorators', { legacy: true }],
+        ['@babel/plugin-proposal-class-properties', { loose: true }],
+      ],
+    },
   },
 }

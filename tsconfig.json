@@ -9,12 +9,14 @@
       "esnext.asynciterable",
       "dom"
     ],
+    "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
     "noEmit": true,
     "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "~/*": [
         "./*"
