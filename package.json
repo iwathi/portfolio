@@ -11,7 +11,9 @@
     "generate": "nuxt-ts generate",
     "lint": "eslint --ext .ts,.vue --ignore-path .gitignore .",
     "test": "jest",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+    "deploy": "push-dir --dir=dist --branch=master --cleanup",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint"

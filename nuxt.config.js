@@ -1,6 +1,15 @@
 import colors from 'vuetify/es5/util/colors'
 
+const rounterBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/portfolio/',
+        },
+      }
+    : {}
 export default {
+  ...rounterBase,
   typescript: {
     typeCheck: {
       eslint: true,
