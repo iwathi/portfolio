@@ -1,6 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 
-const rounterBase =
+const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
@@ -9,7 +9,7 @@ const rounterBase =
       }
     : {}
 export default {
-  ...rounterBase,
+  ...routerBase,
   typescript: {
     typeCheck: {
       eslint: true,
