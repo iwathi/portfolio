@@ -27,7 +27,7 @@
     "@nuxt/typescript-runtime": "latest",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^3.4.3",
     "nuxt-property-decorator": "^2.7.2"
   },
   "devDependencies": {
